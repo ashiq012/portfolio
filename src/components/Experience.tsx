@@ -33,17 +33,6 @@ const experiences: Experience[] = [
       "Applied preprocessing, visualization, and modeling techniques on datasets."
     ],
     skills: ["Numpy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn"]
-  },
-  {
-    title: "Teacher of Mathematics",
-    company: "Vijay Institute and Learning, New Delhi (Part-time)",
-    duration: "May 2022 - Apr 2023",
-    description: [
-      "Taught mathematics with a focus on problem-solving and conceptual clarity.",
-      "Developed and presented mathematical solutions to students.",
-      "Maintained high engagement levels in class, fostering a love for math."
-    ],
-    skills: ["Mathematical Analysis", "Teaching", "Presenting Solutions"]
   }
 ];
 
