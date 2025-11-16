@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #222829;
+  --primary: #49c5b6;
+}
+
+@layer base {
+  body {
+    @apply bg-[#222829] text-white font-poppins;
+  }
+}
+
+@layer utilities {
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+/* Add custom color utility classes */
+.text-primary {
+  color: var(--primary);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+/* Additional global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.spotlight {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background: radial-gradient(
+    800px circle at var(--x) var(--y),
+    rgba(65, 135, 147, 0.15),
+    transparent 30%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
