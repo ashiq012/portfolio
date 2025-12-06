@@ -11,7 +11,7 @@ export default function Navigation() {
     { name: 'Experience', href: '#experience' },
     { name: 'Projects', href: '#projects' },
     { name: 'Blogs', href: '#blogs' },
-    { name: 'GitHub', href: 'https://github.com/MasterMindRomii', external: true },
+    { name: 'Need Help?', href: 'https://topmate.io/heyy_romii/', external: true },
   ];
 
   const menuVariants = {
