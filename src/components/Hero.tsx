@@ -68,7 +68,7 @@ export default function Hero() {
         </h1>
         
         <p className="text-lg md:text-xl text-gray-300 mb-8 animate-fade-in-up animation-delay-200">
-          Data Analytics and Engineering 
+          Currently working at Z1 Tech (VDO.AI) 
         </p>
 
         {/* Single elegant expandable button */}
