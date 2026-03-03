@@ -6,7 +6,7 @@ export default function ResumeButton() {
   return (
     <div className="flex justify-center py-16 ">
       <motion.a
-        href="mailto: romigupta1875@gmail.com" // Replace with your resume link
+        href="mailto: ashiqali9136@gmail.com" // Replace with your resume link
         target="_blank"
         rel="noopener noreferrer"
         className="backdrop-blur-md bg-white/10 px-8 py-4 rounded-full border border-white/20 shadow-lg 

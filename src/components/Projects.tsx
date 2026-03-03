@@ -3,16 +3,8 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image, { StaticImageData } from 'next/image';
-
+import img from '@/assets/image.png';
 // Import your actual project images
-import carprice from '@/assets/carprice.jpg';
-import hotel from '@/assets/hotel.jpg';
-import creditcard from '@/assets/creditcard.jpg';
-import olympics from '@/assets/olympics.jpg';
-import pan_valid from '@/assets/pan_valid.jpg';
-import financial from '@/assets/financial.jpg';
-import mart from '@/assets/mart.jpg';
-import pizza from '@/assets/pizza.png';
 
 interface Project {
   id: number;
@@ -20,88 +12,52 @@ interface Project {
   description: string;
   image: StaticImageData;
   tools: string[];
-  category:  'analytics' | 'bi' | 'ml';
+  category:  'full-stack' | 'frontend' | 'backend';
   link: string;
 }
 
 const projects: Project[] = [
   {
     id: 1,
-    name: "Atliq Mart Promotion Analysis & Insights",
-    description: "Analyze Promotions and Provide Tangible Insights to Sales Director for Diwali 2025 & Makar Sakranti 2025",
-    image: mart,
-    tools: ["Excel", "Power BI", "Mysql"],
-    category: "bi",
-    link: "https://mavenshowcase.com/project/49299"
+    name: "Real-Time Chat Application",
+    description: "Chat Application built with React, Node.js, and Socket.io for real-time communication.",
+    image: img,
+    tools: ["React", "Node.js", "Socket.io", "MongoDB", "Express"],
+    category: "full-stack",
+    link: "https://github.com/ashiq012/chat-application"
   },
   {
     id: 2,
-    name: "Pizza Runner - SQL Case Study",
-    description: "Pizza Runner is a data-driven case study that combines pizza delivery with 'Uberization' concepts.",
-    image: pizza,
-    tools: ["Mysql"],
-    category: "analytics",
-    link: "https://mavenshowcase.com/project/49299"
+    name: "Crypto Tracker Application",
+    description: "A real-time cryptocurrency tracking application built with React and CoinGecko API, featuring interactive charts with Chart.js.",
+    image: img,
+    tools: ["React", "CoinGecko API", "Chart.js"],
+    category: "frontend",
+    link: "https://crypto-analyst-nine.vercel.app/"
   },
   {
     id: 3,
-    name: "Car Price Prediction Model",
-    description: "A Machine Learning model built using Python and Scikit-Learn to predict car prices.",
-    image: carprice,
-    tools: ["Python", "Pandas", "Scikit-Learn"],
-    category: "ml",
-    link: "https://github.com/MasterMindRomii/Car-Price-Prediction-Model"
+    name: "Employee Management System ",
+    description: "A full-stack employee management system with React and local storage for data persistence, allowing users to add, edit, and delete employee records & assign tasks.",
+    image: img,
+    tools: ["React", "Local Storage"],
+    category: "full-stack",
+    link: "https://ems-react-js-theta.vercel.app/"
   },
   {
     id: 4,
-    name: "PAN Number Validation Project using MySQL",
-    description: "This project includes SQL scripts to clean, validate, and categorize PAN numbers as Valid or Invalid based on multiple business rules and regex patterns.",
-    image: pan_valid,
-    tools: ["SQL", "MySQL", "Regex", "View", "Function"],
-    category: "analytics",
-    link: "https://mavenshowcase.com/project/43854"
-  },
-  {
-    id: 5,
-    name: "AtliQ Grands Hospitality Dashboard",
-    description: "A BI dashboard using Tableau & Excel to analyze hotel booking performance.",
-    image: hotel,
-    tools: ["Tableau", "Excel"],
-    category: "bi",
-    link: "https://mavenshowcase.com/project/16725"
-  },
-  {
-    id: 6,
-    name: "Credit Card Usage Analysis Dashboard",
-    description: "A Power BI dashboard analyzing credit card usage trends.",
-    image: creditcard,
-    tools: ["Power BI", "Excel"],
-    category: "bi",
-    link: "https://mavenshowcase.com/project/15249"
-  },
-  {
-    id: 7,
-    name: "Olympics Data Case Study",
-    description: "An SQL-based analytics project on Olympics data.",
-    image: olympics,
-    tools: ["SQL", "MySQL"],
-    category: "analytics",
-    link: "https://mavenshowcase.com/project/15251"
-  },
-  {
-    id: 8,
-    name: "AtliQ Hardware – Finance Analysis & Reporting",
-    description: "Finance analytics using Excel and DAX to evaluate company performance.",
-    image: financial,
-    tools: ["Excel", "DAX", "VBA"],
-    category: "analytics",
-    link: "https://mavenshowcase.com/project/16717"
+    name: "Pixabay clone - Image Search App",
+    description: "A responsive image search application built with React and the Pixabay API.",
+    image: img,
+    tools: ["React", "Pixabay API"],
+    category: "frontend",
+    link: "https://pixabay-gray-two.vercel.app/"
   },
   
 ];
 
 export default function Projects() {
-  const [filter, setFilter] = useState<'all' | 'ml' | 'bi' | 'analytics'>('all');
+  const [filter, setFilter] = useState<'all' | 'frontend' | 'backend'>('all');
 
   const filteredProjects = projects.filter(project =>
     filter === 'all' ? true : project.category === filter
@@ -119,7 +75,7 @@ export default function Projects() {
 
       {/* Filter Buttons */}
       <div className="flex justify-center gap-4 mb-8 flex-wrap">
-        {["all", "ml", "bi", "analytics"].map((type) => (
+        {["all", "frontend", "backend", "full-stack"].map((type) => (
           <button
             key={type}
             onClick={() => setFilter(type as any)}

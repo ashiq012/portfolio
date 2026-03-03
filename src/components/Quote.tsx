@@ -23,7 +23,7 @@ export default function Quote() {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.5 }}
         >
-          Hi, I&apos;m Romi Gupta!
+          Hi, I&apos;m Md Ashiq Ilai!
         </motion.span>
         <motion.span
           className="block mb-3"
@@ -31,7 +31,7 @@ export default function Quote() {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.7 }}
         >
-           Graduated from <span className="text-[#49c5b6] font-semibold">Maharaja Surajmal Institute</span> with a Bachelor&apos;s in Computer Applications, currently pursuing <span className="text-[#49c5b6] font-semibold">MCA in Data Science & Analytics from IGNOU</span>.
+           Graduated from <span className="text-[#49c5b6] font-semibold">Institute of Innovation in technology & management</span> with a Bachelor&apos;s in Computer Applications.
         </motion.span>
         {/* <motion.span
           className="block text-gray-200"

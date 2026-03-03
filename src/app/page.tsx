@@ -40,9 +40,6 @@ export default function Home() {
         <Projects />
       </ScrollSection>
       
-      <ScrollSection id="blogs">
-        <Blog />
-      </ScrollSection>
       
       <ScrollSection>
         <Footer />

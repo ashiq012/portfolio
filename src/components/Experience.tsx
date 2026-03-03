@@ -13,26 +13,16 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    title: "Statistical Analyst – Internship",
-    company: "Indian Sugar & Bio-energy Association (ISMA), New Delhi (On-Site)",
-    duration: "Jul 2024 - Jan 2025",
+    title: "Full stack web developer - training & internship",
+    company: "MakeInterns, New Delhi (Remote)",
+    duration: "Jun 2024 - Aug 2024",
     description: [
-      "Delivered pan-India sugar and ethanol data analysis for 150+ mills, driving strategic decisions for manager & director-level stakeholders.",
-      "Co-developed the Statistics Handbook 2023-24 (150+ pages), ensuring error-free delivery to 500+ industry stakeholders.",
-      "Established robust validation protocols, reducing reporting errors by 25%.",
-      "Automated 5+ reporting processes using Advanced Excel and Python, reducing manual work by 40%."
+      "Developed 3+ full stack projects using React, Node.js, and MongoDB, showcasing proficiency in front-end and back-end development.",
+      "Built and integrated 10+ RESTful APIs with structured routing and middleware improving backend maintainability and debugging efficiency",
+      "Applied Git-based collaborative workflows within Agile sprint cycles ensuring structured version control and deployment consistency",
+      "Optimized performance tuning and debugging practices reducing runtime errors and improving application stability"
     ],
-    skills: ["Advanced Excel", "Data Analysis", "Python (Automation)"]
-  },
-  {
-    title: "Machine Learning Engineer – Internship",
-    company: "CodSoft, New Delhi (Remote)",
-    duration: "Oct 2023 - Nov 2023",
-    description: [
-      "Completed hands-on projects to gain real-world ML experience.",
-      "Applied preprocessing, visualization, and modeling techniques on datasets."
-    ],
-    skills: ["Numpy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn"]
+    skills: ["React", "Node.js", "MongoDB","Express", "Git"]
   }
 ];
 

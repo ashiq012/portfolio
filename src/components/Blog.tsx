@@ -26,11 +26,11 @@ export default function Blog() {
         // Your actual LinkedIn posts
         const yourLinkedInPosts: BlogPost[] = [
           {
-            title: "Finding Strength Through Career Challenges",
-            description: "Sharing my journey through unemployment, rejection, and finding resilience through storytelling.",
-            subtitle: "Feeling the weight of unemployment for a year, enduring rejection every two weeks, and finding solace in storytelling to ease the pain...",
+            title: "School Management System API",
+            description: "A RESTful API for managing school data, built with Node.js, Express, and MongoDB.",
+            subtitle: "",
             thumbnail: '/default-blog-image.jpg',
-            link: "https://www.linkedin.com/feed/update/urn:li:activity:7361665034982215681/", // Update with actual post URL when available
+            link: "https://www.linkedin.com/feed/update/urn:li:activity:7360014390701539329/", // Update with actual post URL when available
             pubDate: "2024-08-14T10:00:00Z",
             publishDate: "August 14, 2024"
           },
@@ -78,12 +78,12 @@ export default function Blog() {
             Latest from LinkedIn
           </h2>
           <p className="text-gray-400 text-sm">
-            My recent posts and professional insights • @heyyromii
+            My recent posts and professional insights • @mdashiqilahi
           </p>
         </motion.div>
         
         <motion.a
-          href="https://www.linkedin.com/in/heyyromii/recent-activity/all/"
+          href="https://www.linkedin.com/in/mdashiqilahi/recent-activity/all/"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-[#0077b5] hover:bg-[#005885] text-white px-4 py-2 rounded-lg transition-colors text-sm flex items-center gap-2"

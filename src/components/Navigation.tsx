@@ -10,8 +10,7 @@ export default function Navigation() {
     { name: 'About Me', href: '#about' },
     { name: 'Experience', href: '#experience' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Blogs', href: '#blogs' },
-    { name: 'Need Help?', href: 'https://topmate.io/heyy_romii/', external: true },
+    { name: 'Resume', href: 'https://drive.google.com/file/d/1sLu3ZuY9Zgj14idvSoYRFjc_tzA0sAXW/view?usp=sharing', external: true },
   ];
 
   const menuVariants = {

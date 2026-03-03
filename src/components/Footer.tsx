@@ -6,19 +6,14 @@ import { FaGithub, FaLinkedin, FaMedium, FaEnvelope, FaPhone, FaYoutube } from '
 const socialLinks = [
   {
     name: 'GitHub',
-    url: 'https://github.com/MasterMindRomii',
+    url: 'https://github.com/ashiq012',
     icon: FaGithub
   },
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/heyyromii/',
+    url: 'https://www.linkedin.com/in/mdashiqilahi',
     icon: FaLinkedin
   },
-  {
-    name: 'Youtube',
-    url: 'https://www.youtube.com/@MasterMindRomii',
-    icon: FaYoutube
-  }
 ];
 
 export default function Footer() {
@@ -41,7 +36,7 @@ export default function Footer() {
                 className="flex items-center gap-2 hover:text-[#49c5b6] transition-colors"
               >
                 <FaEnvelope />
-                <span>Romigupta1875@gmail.com</span>
+                <span>ashiqali9136@gmail.com</span>
               </a>
               <a 
                 href="tel:99xxxxx"
@@ -86,7 +81,7 @@ export default function Footer() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <p>© {new Date().getFullYear()} Romi Gupta. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Md Ashiq Ilahi. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>

@@ -9,56 +9,40 @@ interface Skill {
 
 const skills: Skill[] = [
   {
-    category: "Programming & Analysis",
-    items: ["Python", "NumPy", "Pandas", "Matplotlib", "Basic ML"]
-  },
-  {
-    category: "Databases & SQL",
+    category: "web development",
     items: [
-      "MySQL",
-      "Subqueries",
-      "Joins",
-      "Window Functions",
-      "CTEs",
-      "Aggregate Functions",
-      "Normalization"
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS",
+      "Git & GitHub"
     ]
   },
   {
-    category: "Business Intelligence",
+    category: "Programming Languages",
     items: [
-      "Power BI",
-      "Power Query",
-      "DAX Functions",
-      "Data Modeling",
-      "Time Intelligence"
+      "JavaScript",
     ]
   },
   {
-    category: "Excel & Spreadsheet Tools",
+    category: "Ai & Tools",
     items: [
-      "Pivot Table",
-      "Power Pivot",
-      "Charts & Graphs",
-      "Conditional Formatting",
-      "Advanced Excel Functions"
+      "ChatGPT",
+      "GitHub Copilot",
+      "VS Code",
+      "Postman"
     ]
   },
-  {
-    category: "Data Engineering Basic",
-    items: [
-      "Snowflake",
-      "Airflow",
-      "PySpark",
-      "ETL Pipeline Processes",
-      "Azure Cloud Platform"
-    ]
-  },
+
   {
     category: "Soft Skills",
     items: [
-      "Stakeholder Management",
-      "Data Driven Solutions",
+      "Time Management",
+      'Team Collaboration',
       "Problem Solving",
       "Communication & Presentation",
       "Critical Thinking"
