@@ -24,7 +24,7 @@ const projects: Project[] = [
     image: img,
     tools: ["React", "Node.js", "Socket.io", "MongoDB", "Express"],
     category: "full-stack",
-    link: "https://github.com/ashiq012/chat-application"
+    link: "https://chat-application-f2wz.onrender.com/"
   },
   {
     id: 2,
