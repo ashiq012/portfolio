@@ -10,7 +10,7 @@ export default function Navigation() {
     { name: 'About Me', href: '#about' },
     { name: 'Experience', href: '#experience' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Resume', href: 'https://drive.google.com/file/d/1DrVIwIcHrtOzSuKuwgeu2aY9Pzb-DW6Z/view?usp=drive_link', external: true },
+    { name: 'Resume', href: 'https://drive.google.com/file/d/1fQifhI8yuDkeMeYpakfdA9MmHzn6iUOi/view?usp=sharing', external: true },
   ];
 
   const menuVariants = {
