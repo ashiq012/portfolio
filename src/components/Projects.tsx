@@ -25,7 +25,6 @@ const projects: Project[] = [
     tools: ["React", "Node.js", "Express", "MongoDB", "Redux", "Tailwind CSS", "Razorpay", "Cloudinary"],
     category: "full-stack",
     link: "https://my-study-notion.vercel.app/"
-}
   },
   {
     id: 2,
