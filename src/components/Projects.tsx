@@ -18,7 +18,17 @@ interface Project {
 
 const projects: Project[] = [
   {
-    id: 1,
+    id: ,
+    name: "StudyNotion EdTech Platform",
+    description: "Full-stack EdTech platform built with MERN stack enabling course creation, enrollment, and secure payment integration.",
+    image: img,
+    tools: ["React", "Node.js", "Express", "MongoDB", "Redux", "Tailwind CSS", "Razorpay", "Cloudinary"],
+    category: "full-stack",
+    link: "https://my-study-notion.vercel.app/"
+}
+  },
+  {
+    id: 2,
     name: "Real-Time Chat Application",
     description: "Chat Application built with React, Node.js, and Socket.io for real-time communication.",
     image: img,
@@ -27,7 +37,7 @@ const projects: Project[] = [
     link: "https://chat-application-f2wz.onrender.com/"
   },
   {
-    id: 2,
+    id: 3,
     name: "Crypto Tracker Application",
     description: "A real-time cryptocurrency tracking application built with React and CoinGecko API, featuring interactive charts with Chart.js.",
     image: img,
@@ -36,7 +46,7 @@ const projects: Project[] = [
     link: "https://crypto-analyst-nine.vercel.app/"
   },
   {
-    id: 3,
+    id: 4,
     name: "Employee Management System ",
     description: "A full-stack employee management system with React and local storage for data persistence, allowing users to add, edit, and delete employee records & assign tasks.",
     image: img,
@@ -45,7 +55,7 @@ const projects: Project[] = [
     link: "https://ems-react-js-theta.vercel.app/"
   },
   {
-    id: 4,
+    id: 5,
     name: "Pixabay clone - Image Search App",
     description: "A responsive image search application built with React and the Pixabay API.",
     image: img,
