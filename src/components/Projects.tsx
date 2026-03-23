@@ -18,7 +18,7 @@ interface Project {
 
 const projects: Project[] = [
   {
-    id: ,
+    id: 1,
     name: "StudyNotion EdTech Platform",
     description: "Full-stack EdTech platform built with MERN stack enabling course creation, enrollment, and secure payment integration.",
     image: img,
