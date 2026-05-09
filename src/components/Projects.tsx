@@ -62,6 +62,15 @@ const projects: Project[] = [
     category: "frontend",
     link: "https://pixabay-gray-two.vercel.app/"
   },
+   {
+    id: 6,
+    name: "GenAI - PreP",
+    description: "Ai based app use for resume build and Job preparation in 1 click",
+    image: img,
+    tools: ["React", "Node","MongoDB","Express","Puppeteer","Gemini-Ai"],
+    category: "full-stack",
+    link: "https://genai-interviewprep.onrender.com/login"
+  },
   
 ];
 
