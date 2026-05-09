@@ -19,7 +19,10 @@ const skills: Skill[] = [
       "Express",
       "MongoDB",
       "Tailwind CSS",
-      "Git & GitHub"
+      "Git & GitHub",
+      "Socket IO",
+      "AI",
+      "Authentication"
     ]
   },
   {
@@ -32,6 +35,7 @@ const skills: Skill[] = [
     category: "Ai & Tools",
     items: [
       "ChatGPT",
+      "Gemini-AI",
       "GitHub Copilot",
       "VS Code",
       "Postman"
