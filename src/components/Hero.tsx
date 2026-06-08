@@ -264,7 +264,7 @@ export default function Hero() {
 
             {/* updataed Resume */}
             <a
-              href="https://drive.google.com/file/d/1o5hSE8_XNZprfZwFKebL5ybUSi-l2lY6/view?usp=sharing"
+              href="https://drive.google.com/file/d/1GJ3O5pjXuZvqIWDsZv37Y0BZsZCdTgnN/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative bg-[#49c5b6]/5 hover:bg-[#49c5b6]/10 border border-[#49c5b6]/20 hover:border-[#49c5b6]/40 rounded-lg p-4 backdrop-blur-sm transition-all duration-300 hover:transform hover:scale-105"
